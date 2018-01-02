@@ -1,0 +1,21 @@
+---
+title: "Parents Make the Difference (PMD)"
+output:
+  html_document:
+    toc_float: false
+---
+
+```{r, include=FALSE}
+  library(knitr)
+  library(kableExtra)
+  library(magrittr)
+  library(xlsx)
+  library(tidyverse)
+```
+
+![](img/cover.png)
+
+<center>
+Photo credit: [Mark Darrough, International Rescue Committee](https://www.rescue.org/report/parents-make-difference-findings-randomized-impact-evaluation-parenting-program-rural-liberia).
+</center>
+

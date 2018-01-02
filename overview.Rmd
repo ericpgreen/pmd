@@ -1,0 +1,15 @@
+---
+title: "Parents Make the Difference"
+output:
+  html_document:
+    toc: false
+    toc_float: false
+bibliography: parenting.bib
+csl: vancouver.csl
+---
+
+*Insert. We created this study website to store all study-related products and data (licensed under the [CC-BY license](https://creativecommons.org/licenses/by/4.0/)). New material will be released as academic manuscripts enter production.*
+
+* * * 
+
+Insert

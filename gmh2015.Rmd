@@ -1,0 +1,39 @@
+---
+title: "Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study"
+output:
+  html_document:
+    toc_float: true
+bibliography: parenting.bib
+csl: vancouver.csl
+---
+
+# Metadata
+
+```{r, echo=FALSE}
+  tbl <- data.frame(Element=c("Paper Citation", 
+                              "Journal Copy", 
+                              "Pre-Print", 
+                              "Data Citation",
+                              "Registration"),
+                    Details=c("Puffer, E., Green, E., Chase, R., Sim, A., Zayzay, J., Friis, E., . . . Boone, L. (2015). Parents make the difference: A randomized-controlled trial of a parenting intervention in Liberia.*Global Mental Health*, 2. doi:10.1017/gmh.2015.12",
+                              "[Global Mental Health](https://www.cambridge.org/core/journals/global-mental-health/article/parents-make-the-difference-a-randomizedcontrolled-trial-of-a-parenting-intervention-in-liberia/93AA7D5DCFFA94823DB58BDBADC236A7)",
+                              "[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5269617/)",
+                              "Green, E.P. & Puffer, E.P. (2017). PMD data repository. [![DOI](https://zenodo.org/badge/115718962.svg)](https://zenodo.org/badge/latestdoi/115718962)"),
+                    "[ClinicalTrials.gov, NCT01829815](https://clinicaltrials.gov/ct2/show/NCT01829815)")
+
+tbl %>%
+  kable("html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", 
+                                      "condensed", "responsive")) %>%
+  column_spec(1, width = "10em")
+```
+
+# Summary
+
+This randomized trial examined the feasibility and impact of a parenting skills intervention for caregivers of young children in Liberia. Findings add to the scarce but growing literature on the impacts of parenting interventions in low-income countries and post-conflict settings. This study focuses on children ages 3–7, an age range well-represented in parenting literature in high-income countries but less so in other parts of the world. Results show that the PMD reduced caregivers’ use of harsh physical and verbal punishment strategies and increased their use of positive behavior management at 1-month follow-up. The program also improved caregiver-child interactions—according to caregiver and child report—but no significant effects were found on child-level outcomes or malaria prevention behaviors.
+
+# Key Take-Aways
+
+INSERT
+
+# References

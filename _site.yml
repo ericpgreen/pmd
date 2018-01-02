@@ -1,0 +1,37 @@
+name: Parents Make the Difference
+output_dir: '.'
+navbar:
+  title: PMD
+  type: inverse
+  left:
+  - text: Home
+    href: index.html
+  - text: Overview
+    href: overview.html
+  - text: Team
+    href: team.html
+  - text: Papers
+    menu:
+    - text: PMD1 Impact
+      href: gmh2015.html
+  - text: Data and Code
+    href: 
+    icon: fa-external-link
+  right:
+  - icon: fa-envelope-o
+    href: mailto:eric.green@duke.edu
+  - icon: fa-github
+    href: https://github.com/ericpgreen/pmd
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
+    fig_caption: yes
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
