@@ -6,10 +6,9 @@ output:
 ---
 
 ```{r, include=FALSE}
+  library(magrittr)
   library(knitr)
   library(kableExtra)
-  library(magrittr)
-  library(xlsx)
   library(tidyverse)
 ```
 

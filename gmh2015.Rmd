@@ -1,5 +1,5 @@
 ---
-title: "Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study"
+title: "Parents make the difference: a randomized-controlled trial of a parenting intervention in Liberia"
 output:
   html_document:
     toc_float: true
@@ -9,17 +9,26 @@ csl: vancouver.csl
 
 # Metadata
 
+```{r, include=FALSE}
+  library(magrittr)
+  library(knitr)
+  library(kableExtra)
+  library(tidyverse)
+```
+
 ```{r, echo=FALSE}
   tbl <- data.frame(Element=c("Paper Citation", 
                               "Journal Copy", 
                               "Pre-Print", 
                               "Data Citation",
-                              "Registration"),
+                              "Registration",
+                              "Policy Report"),
                     Details=c("Puffer, E., Green, E., Chase, R., Sim, A., Zayzay, J., Friis, E., . . . Boone, L. (2015). Parents make the difference: A randomized-controlled trial of a parenting intervention in Liberia.*Global Mental Health*, 2. doi:10.1017/gmh.2015.12",
                               "[Global Mental Health](https://www.cambridge.org/core/journals/global-mental-health/article/parents-make-the-difference-a-randomizedcontrolled-trial-of-a-parenting-intervention-in-liberia/93AA7D5DCFFA94823DB58BDBADC236A7)",
                               "[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5269617/)",
-                              "Green, E.P. & Puffer, E.P. (2017). PMD data repository. [![DOI](https://zenodo.org/badge/115718962.svg)](https://zenodo.org/badge/latestdoi/115718962)"),
-                    "[ClinicalTrials.gov, NCT01829815](https://clinicaltrials.gov/ct2/show/NCT01829815)")
+                              "Green, E.P. & Puffer, E.P. (2017). PMD data repository. [![DOI](https://zenodo.org/badge/115718962.svg)](https://zenodo.org/badge/latestdoi/115718962)",
+                    "[ClinicalTrials.gov, NCT01829815](https://clinicaltrials.gov/ct2/show/NCT01829815)",
+                    "[IRC](https://www.rescue.org/report/parents-make-difference-findings-randomized-impact-evaluation-parenting-program-rural-liberia)"))
 
 tbl %>%
   kable("html") %>%
