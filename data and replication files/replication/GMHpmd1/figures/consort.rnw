@@ -1,0 +1,64 @@
+% A CONSORT-style flowchart of a randomized controlled trial
+% using the PGF/TikZ package
+% Author  : Morten Vejs Willert (July 2010)
+% License : Creative Commons attribution license
+
+\begin{figure}
+\begin{center}
+  \caption{Participant flow diagram}
+  \label{consort}
+  % setting the typeface to sans serif and the font size to small
+  % the scope local to the environment
+  \sffamily
+  \footnotesize
+  \begin{tikzpicture}[auto,
+block_center/.style ={rectangle, draw=black, thick, fill=white, text width=16em, text centered, minimum height=4em},
+block_left/.style ={rectangle, draw=black, thick,    fill=white, text width=16em, text ragged, minimum height=4em, inner sep=6pt},
+block_noborder/.style ={rectangle, draw=none, thick,  fill=none, text width=18em, text centered, minimum height=1em},
+block_assign/.style ={rectangle, draw=black, thick, fill=white, text width=18em, text ragged, minimum height=3em, inner sep=6pt},
+block_lost/.style ={rectangle, draw=black, thick,   fill=white, text width=16em, text ragged, minimum height=3em, inner sep=6pt}, line/.style ={draw, thick, -latex', shorten >=0pt}]
+  % outlining the flowchart using the PGF/TikZ matrix function
+    \matrix [column sep=5mm,row sep=3mm] {
+     % enrollment - row 1
+      \node [block_left] (assessment) {Assessed for eligibility (\textit{N}=\Sexpr{assessed.c})}; 
+      & \node [block_left] (excluded2) {Excluded (\textit{N}=\Sexpr{excluded.c}): \\
+        a) Inclusion criteria not met (\textit{n}=\Sexpr{excluded.c.i}) \\
+        b) Exclusion criteria(s) met (\textit{n}=\Sexpr{excluded.c.e})}; \\
+     % enrollment - row 2
+      \node [block_center] (random) {Randomized (\textit{N}=\Sexpr{randomized.c})}; 
+      & \\
+     % follow-up - row 3
+      \node [block_noborder] (i) {Intervention group}; 
+      & \node [block_noborder] (wlc) {Wait-list control group}; \\
+     % follow-up - row 4
+      \node [block_assign] (i_T0) {Allocated to intervention (\textit{n}=\Sexpr{allocated.c.t}): \\
+      \h Received intervention (\textit{n}=\Sexpr{perprotocol.c.t}) \\
+      \h Did not receive intervention (\textit{n}=\Sexpr{notperprotocol.c.t})}; 
+    & \node [block_assign] (wlc_T0) {Allocated to wait-list (\textit{n}=\Sexpr{allocated.c.c}): \\
+      \h Stayed on wait-list (\textit{n}=\Sexpr{perprotocol.c.c}) \\
+      \h Did not stay on wait-list (\textit{n}=\Sexpr{notperprotocol.c.c})}; \\
+     % follow-up - row 5
+      \node [block_assign] (i_T3) {Post-intervention measurement: \\
+      \h Lost to follow-up (\textit{n}=\Sexpr{lostfu.c.t})}; 
+	  & \node [block_assign] (wlc_T3) {Post-wait-list measurement: \\
+      \h Lost to follow-up (\textit{n}=\Sexpr{lostfu.c.c})}; \\
+     % analysis - row 6
+      \node [block_assign] (i_ana) {Analyzed (\textit{n}=\Sexpr{analyzed.c.t})}; 
+      & \node [block_assign] (wlc_ana) {Analyzed (\textit{n}=\Sexpr{analyzed.c.c})}; \\
+    };% end matrix
+  % connecting nodes with paths
+    \begin{scope}[every path/.style=line]
+      \path (assessment) -- (excluded2);
+      \path (assessment) -- (random);
+      \path (random)     -- (i);
+      \path (random)     -| (wlc);
+      \path (i)          -- (i_T0);
+      \path (i_T0)       -- (i_T3);
+      \path (i_T3)       -- (i_ana);
+      \path (wlc)        -- (wlc_T0);
+      \path (wlc_T0)     -- (wlc_T3);
+      \path (wlc_T3)     -- (wlc_ana);
+    \end{scope}
+  \end{tikzpicture}
+\end{center}
+\end{figure}

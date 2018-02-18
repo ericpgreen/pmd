@@ -1,0 +1,29 @@
+
+\begin{table}
+\rotatebox[origin=c]{90}{
+\scalebox{0.90}{
+\centerline{\begin{threeparttable}
+  \caption{Sensitivity}
+  \label{tbl:ate-sen}
+  \centering
+  \begin{tabular}{lrrrrr@{}lrr@{}lrr@{}l}
+  \toprule
+  & & & & \multicolumn{9}{c}{Specifications} \\
+  \cmidrule(lr){5-13}
+ & \multicolumn{3}{c}{Observations} & \multicolumn{3}{c}{Main} & \multicolumn{3}{c}{No covariates} & \multicolumn{3}{c}{Missing 90/10} \\
+  \cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10} \cmidrule(lr){11-13}
+ & \multicolumn{1}{c}{\textit{N}} & \multicolumn{1}{c}{Miss} & \multicolumn{1}{c}{\% Miss} & \multicolumn{1}{c}{$\beta$} & \multicolumn{1}{c}{SE} & \multicolumn{1}{l}{} & \multicolumn{1}{c}{$\beta$} & \multicolumn{1}{c}{SE} & \multicolumn{1}{l}{} & \multicolumn{1}{c}{$\beta$} & \multicolumn{1}{c}{SE} & \multicolumn{1}{l}{} \\
+Outcome & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{(8)} & \multicolumn{1}{c}{(9)} & \multicolumn{1}{c}{} \\
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/sen.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item $\cdot$ p\textless0.1, * p\textless0.05, ** p\textless0.01, *** p\textless0.001
+  \item Note. This table displays the results of a sensitivity analysis of the average treatment effects according to three different specifications. Columns 1 to 3 report on missing data. Columns 4 and 5 report the coefficients and standard errors from ordinary least squares regressions of the outcomes on an indicator of assignment to treatment, community strata, and a vector of baseline covariates. This is the main specification reported in the manuscript; results in these columns are also reported in Table \ref{tbl:ate-main}. The second specification removes baseline covariates (Columns 6-7). The third specification matches the main specification (Columns 8-9); however, missing observations in the data were imputed according to conservative bounds that assume the worst case for missing treatment observations and the best case for missing control observations. Missing data were imputed at the 10th percentile for outcomes in which higher scores are better (e.g., positive interactions) and at the 90th percentile for outcomes in which lower scores are better (e.g., harsh discipline) for participants assigned to immediate treatment. This pattern was reversed for missing data from participants assigned to delayed treatment (i.e., control).
+  \end{tablenotes}
+  \end{threeparttable}}}\hspace{1in}
+}
+\end{table}
+

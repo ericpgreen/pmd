@@ -1,0 +1,25 @@
+\begin{table}[H]
+\rotatebox[origin=c]{90}{
+\scalebox{0.95}{
+\centerline{\begin{threeparttable}
+  \caption{Average treatment effects: Positive interactions}
+  \label{tbl:ate-pos}
+  \centering
+  \begin{tabular}{lrrrrr@{}lrr}
+  \toprule
+ & & \multicolumn{2}{c}{Control} & \multicolumn{5}{c}{Intent-to-Treat (\textit{N}=270)} \\
+  \cmidrule(lr){3-4} \cmidrule(lr){5-9} 
+ & Scale ($\textgreater$) & \multicolumn{1}{c}{Mean}  &  \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{$\beta$} & \multicolumn{1}{c}{SE} & \multicolumn{1}{l}{} & \multicolumn{1}{c}{95\%CI} & \multicolumn{1}{c}{$\Delta$} \\
+Outcome & \multicolumn{1}{c}{(1)} &  \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{l}{} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/ate.pos.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item $\cdot$ p\textless0.1, * p\textless0.05, ** p\textless0.01, *** p\textless0.001
+  \item Note. This table reports average treatment effects that are based on a comparison of caregivers assigned to the treatment and control groups. Column 1 lists the scale of each outcome. The character in parentheses indicates the valence of higher values: good (+) or bad (-). Columns 2 and 3 report unadjusted means and standard deviations among the control group. Columns 4 and 5 report the results from an OLS regression of each outcome on an indicator of assignment to treatment, community fixed effects (omitted), and a vector of baseline covariates (omitted). Column 6 reports the 95 percent confidence interval on the estimate reported in Column 4. Column 7 reports Glass's $\Delta$, a standardized effect size (ATE/control group SD).
+  \end{tablenotes}
+  \end{threeparttable}}}\hspace{1.8in}
+}
+\end{table}

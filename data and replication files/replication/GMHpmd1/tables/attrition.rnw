@@ -1,0 +1,24 @@
+\begin{table}[H]
+  \centerline{\begin{threeparttable}
+  \caption{Comparison of baseline characteristics among found and unfound participants at endline}
+  \label{tbl:att}
+  \centering
+  \begin{tabular}{lrrrrr}
+  \toprule
+  Characteristics & \multicolumn{1}{c}{Found} & \multicolumn{1}{c}{Unfound} & p-value \\
+  \midrule
+  \textit{Caregivers} & & & & & \\
+  \hspace{0.25cm}\textit{N} & \multicolumn{1}{r}{\Sexpr{att.0.c}} & \multicolumn{1}{r}{\Sexpr{att.1.c}} & \\
+  \expandableinput ../../master/pmd1/output/tables/attr.c.tex
+  \midrule
+  \textit{Children} & & & & & \\
+  \hspace{0.25cm}\textit{N} & \multicolumn{1}{r}{\Sexpr{att.0.k}} & \multicolumn{1}{r}{\Sexpr{att.1.k}} & \\
+  \expandableinput ../../master/pmd1/output/tables/attr.k.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item Note. $\dagger$ An exchange rate of \Sexpr{round(xr, 1)} Liberian Dollars per \$1USD (September 12, 2012) was used to convert to USD. Self-reported income top-coded at the 99th percentile.
+  \end{tablenotes}
+  \end{threeparttable}}
+\end{table}

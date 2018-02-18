@@ -4,3 +4,6 @@
 .Ruserdata
 packrat/lib*/
 packrat/src/
+data*and*replication*files/master/pmd1/output/figures/
+data*and*replication*files/master/pmd1/output/tables/
+data*and*replication*files/replication/GMHpmd1/cache/

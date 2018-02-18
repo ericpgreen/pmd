@@ -1,0 +1,36 @@
+
+\begin{table}
+\scalebox{0.90}{
+\centerline{\begin{threeparttable}
+  \caption{Treatment heterogeneity}
+  \label{tbl:ate-het}
+  \centering
+  \begin{tabular}{lr@{}lr@{}lr@{}l}
+  \toprule
+  & \multicolumn{6}{c}{Outcomes (reporter, scale)} \\
+  \cmidrule(lr){2-7}
+  & \multicolumn{2}{c}{Harsh} & \multicolumn{2}{c}{Positive} & \multicolumn{2}{c}{Positive} \\
+  & \multicolumn{2}{c}{Parenting} & \multicolumn{2}{c}{Behavior Mgmt} & \multicolumn{2}{c}{Interaction} \\
+  & \multicolumn{2}{c}{(caregiver, 0-4)} & \multicolumn{2}{c}{(caregiver, z)} & \multicolumn{2}{c}{(child, 0-3)} \\
+  \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+  Baseline Covariates & \multicolumn{2}{c}{$\beta$ [SE]} & \multicolumn{2}{c}{$\beta$ [SE]} & \multicolumn{2}{c}{$\beta$ [SE]} \\
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/het.est.b.care.female.tex
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/het.est.b.care.tc.female.tex
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/het.est.b.care.tc.age.tex
+  \midrule
+  \expandableinput ../../master/pmd1/output/tables/het.est.b.care.sdq.overall.tex
+  \bottomrule
+  \expandableinput ../../master/pmd1/output/tables/het.est.sum.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item $\cdot$ p\textless0.1, * p\textless0.05, ** p\textless0.01, *** p\textless0.001
+  \item Note. This table displays the results of a moderation (subgroup) analysis. We examine treatment heterogeneity in three outcomes---harsh parenting, positive behavior management, and positive interaction---according to four characteristics measured at \textit{baseline}: (i) caregiver gender, (ii) child gender, (iii) child age, and (iv) child conduct problems. We estimate treatment heterogeneity by interacting assignment to treatment with each baseline covariate.
+  \end{tablenotes}
+  \end{threeparttable}}}\hspace{1in}
+\end{table}
+

@@ -1,0 +1,530 @@
+\documentclass[12pt,authoryear]{elsarticle}\usepackage{knitr}
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Parents Make the Difference I
+% Parents make the difference: a randomized- controlled trial of a parenting intervention in Liberia
+% Global Mental Health (2015), 2, e15, page 1 of 13. doi:10.1017/gmh.2015.12
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+\usepackage[figuresright]{rotating}
+\usepackage[notablist]{endfloat}
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage[group-separator={,}]{siunitx}
+\usepackage{float}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage{multirow}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage[headheight=0.5in, margin=1.5in]{geometry}
+\usepackage{caption}
+\usepackage[toc,page]{appendix}
+\usepackage{array}
+\usepackage{parskip}
+\setlength{\parindent}{1cm}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\chead{}
+\fancyfoot[C]{}
+\lhead{}
+\rhead{\textit{Parents Make the Difference}\hspace{5 mm} \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage[doublespacing]{setspace}
+\makeatletter\let\expandableinput\@@input\makeatother
+%\def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\usepackage{sectsty}
+\allsectionsfont{\larger}
+\usepackage[font=normalsize]{caption}
+\usepackage[modulo]{lineno}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\newcommand*{\h}{\hspace{5pt}}% for indentation
+\newcommand*{\hh}{\h\h}% double indentation
+
+
+% get rid of footer included in elsarticle
+\makeatletter
+\def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \def\@oddfoot{}%
+ \let\@evenfoot\@oddfoot}
+\makeatother
+
+% appendix page numbering
+\let\origappendix\appendix % save the existing appendix command
+\renewcommand\appendix{\clearpage\pagenumbering{roman}\origappendix}
+
+%% Code added to comply with the requirement that the
+%% abstract is on the second page together with the keywords.
+%% Remove up to the <end of patch> line for removing the patch.
+\usepackage{etoolbox}
+\patchcmd{\pprintMaketitle}
+ {\ifvoid\absbox\else\unvbox\absbox\par\vskip10pt\fi}
+ {\ifvoid\absbox\else\clearpage\unvbox\absbox\par\vskip30pt\fi}
+ {}{}
+\patchcmd{\pprintMaketitle}
+ {\hrule\vskip12pt}
+ {}
+ {}{}
+\patchcmd{\pprintMaketitle}
+ {\hrule\vskip12pt}
+ {}
+ {}{}
+\appto{\pprintMaketitle}{\clearpage}
+%% <end of patch>
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}\thispagestyle{empty}
+
+\begin{frontmatter}
+
+\title{Parents Make the Difference: A randomized-controlled trial of a parenting intervention in Liberia}
+
+\author[add1,add2]{Eve S. Puffer\corref{cor1}}
+\ead{eve.puffer@duke.edu}
+\author[add2]{Eric P. Green}
+\ead{eric.green@duke.edu}
+\author[add3]{Rhea M. Chase}
+\ead{rhea.chase@duke.edu}
+\author[add4]{Amanda L. Sim}
+\ead{Amanda.Sim@rescue.org}
+\author[add5]{John Zayzay}
+\ead{john.zayzay@rescue.org}
+\author[add1]{Elsa Friis}
+\ead{elsa.friis@duke.edu}
+\author[add4]{Eduardo Garcia-Rolland}
+\ead{Eduardo.GarciaRolland@rescue.org}
+\author[add4]{Laura Boone}
+\ead{Laura.Boone@rescue.org}
+
+
+\cortext[cor1]{Please address correspondence to Eve Puffer, 1(919)660-5734}
+\address[add1]{Duke University, Department of Psychology and Neuroscience, Box 90086, 417 Chapel Drive, Durham, NC 27708, USA}
+\address[add2]{Duke Global Health Institute, Box 90519, Durham, North Carolina 27708, USA}
+\address[add3]{Duke University Medical Center, Center for Child and Family Health, 411 W. Chapel Hill Street, Suite 908, Durham, NC 27701, USA}
+\address[add4]{International Rescue Committee, 122 East 42nd Street, New York, NY 10168, USA}
+\address[add5]{International Rescue Committee, Monrovia, Liberia}
+
+
+\begin{abstract}
+\begin{footnotesize}
+\begin{spacing}{1}
+
+\paragraph*{Background}
+The objective of this study was to evaluate the impact of a brief parenting intervention, ``Parents Make the Difference,'' on parenting behaviors, quality of parent-child interactions, children's cognitive, emotional, and behavioral wellbeing, and malaria prevention behaviors in rural, post-conflict Liberia. 
+
+\paragraph*{Methods}
+A sample of 270 caregivers of children ages 3 to 7 were randomized into an immediate treatment group that received a 10-session parent training intervention or a wait-list control condition (1:1 allocation). Interviewers administered baseline and 1-month post-intervention surveys and conducted child-caregiver observations. Intent-to-treat estimates of the average treatment effects were calculated using ordinary least squares regression. This study was pre-registered at ClinicalTrials.gov (NCT01829815). 
+
+\paragraph*{Results}
+The program led to a 55.5 percent reduction in caregiver-reported use of harsh punishment practices (p $\textless$ 0.001). The program also increased the use of positive behavior management strategies and improved caregiver-child interactions. The average caregiver in the treatment group reported a 4.4 percent increase in positive interactions (p $\textless$ 0.05), while the average child of a caregiver assigned to the treatment group reported a 17.5 percent increase (p $\textless$ 0.01). The program did not have a measurable impact on child wellbeing, cognitive skills, or household adoption of malaria prevention behaviors. 
+
+\paragraph*{Conclusions}
+PMD is a promising approach for preventing child abuse and promoting positive parent-child relationships in low-resource settings.
+
+\end{spacing}
+\end{footnotesize}
+\end{abstract}
+
+
+\begin{keyword}
+\begin{footnotesize}
+abuse prevention \sep Africa \sep family-based intervention \sep global mental health \sep Liberia \sep parenting
+\end{footnotesize}
+\end{keyword}
+
+\end{frontmatter}
+\normalsize
+
+% MAIN TEXT
+
+%\begin{linenumbers}
+%\modulolinenumbers[2]
+
+\section*{Introduction}
+
+Children and adolescents worldwide experience high rates of verbal, physical, and sexual abuse, often perpetrated by their caregivers. Young people in certain parts of the world seem to be at increased risk, with multi-country studies documenting the highest rates in Africa \citep{Akmatov:2011,Stoltenborgh:2011}. Rates of family conflict, abuse, and a range of poor developmental outcomes seem to be even higher in post-conflict settings where children and families are faced with exposure to community-based violence and other risk factors for family stress and mental health problems, including poverty, displacement, loss of or separation from loved ones, and uncertainty about the future \citep{Reed:2012,Mels:2010}. Daily stressors experienced in post-conflict settings may have as much, or potentially more, effects on mental health as war-related stress. Some findings suggest that family violence is a major predictor of mental health outcomes \citep{Panter-Brick:2011,Miller:2010}, perhaps even more predictive of children's mental health problems than exposure to war violence among children \citep{Miller:2010}. Thus targeting a broader range of stressors, including mental health and family well-being, may buffer the harmful effects of conflict \citep{Akinsulure-Smith:2012,Bolton:2004}.
+
+Child abuse has been associated with lasting emotional, behavioral, physical, and cognitive problems \citep{Moylan:2010,Mills:2011,Widom:2012}. Overly harsh and inconsistent parenting, with or without abusive behavior, are also associated with lower self-esteem and social skills, as well as higher rates of anxiety and disruptive behavior \citep{Boudreault-Bouchard:2013,Uji:2014,Yap:2013}. In post-conflict settings, harsh parenting may even moderate the effects of exposure to war on children's mental health \citep{Miller:2010,Catani:2008}. Parents who mistreat their children typically demonstrate limited positive interactions with their child, poor understanding of child development, low tolerance of misbehavior, and ineffective discipline strategies. Behavioral parenting programs address these risk factors by increasing skills for positive parent-child interactions and effective discipline and by providing parents with education on child development and behavior \citep{Kaminski:2008}.
+
+Parenting interventions that address abuse, and evidence-based child and family psychosocial interventions in general, are scarce or non-existent in many low-income countries and particularly in conflict-affected settings \citep{Kakuma:2011,Kieling:2011}. The most commonly available services provide general psychosocial support, often using approaches that have not been empirically validated or grounded in evidence-based practices \citep{Tol:2011}. Prevention and early interventions are needed at the family and community levels to reduce abuse and foster positive parenting practices---protective factors that can buffer against mental health problems and other negative developmental outcomes \citep{Betancourt:2008,Engle:2007,Kieling:2011}. 
+
+\subsection*{Behavioral parenting interventions}
+
+Empirical evidence suggests that behavioral parent training programs can improve a range of positive caregiver and child outcomes, including child internalizing and externalizing symptoms, parent-child attachment, parenting stress, and parental self-efficacy \citep{Chase:2008,Eisenstadt:1993,Eyberg:2008}. These programs are grounded in behavioral theory; parents are taught to use positive reinforcement strategies, such as praise, to increase appropriate child behaviors and consistent, non-corporal discipline strategies. The goal is to provide parents with concrete techniques to decrease harsh parenting, improve interactions, encourage child prosocial behavior, and promote positive child development. Among interventions backed by the strongest evidence for use with young children are Triple P \citep{Nowak:2008}, Parent-Child Interaction Therapy \citep{Eisenstadt:1993}, Incredible Years \citep{Webster-Stratton:2011}, and the Nurturing Parenting Program \citep{Maher:2011}. The magnitude of effects across these varies based on the target population and version of the program. While all primarily behavioral, these programs have unique elements in content and delivery. For delivery, they each require different combinations of inputs, such as varying training models, facilitator requirements, or materials; this influences the settings for which they are appropriate and the degree to which adaptations to implementation plans are required across contexts. 
+
+Most of the research supporting parent training programs has been in high-income countries. Of the limited studies in low-income countries, few have targeted reductions in harsh parenting or prevention of emotional and behavioral problems \citep{Jin:2007,Klein:2004,Oveisi:2010,Mejia:2012}, while more have focused on caregivers of infants and children under age 3 and outcomes related to early mother-child interactions \citep{Knerr:2013}. Further research is needed to establish the feasibility and efficacy of such interventions in low income, conflict-affected settings and to determine the best strategies for implementation and wide-scale dissemination. 
+
+\subsection*{Current study}
+
+We add to the growing evidence base on parenting interventions designed for low-resource settings by conducting a randomized trial of a 10-session program for caregivers of young children in post-conflict Liberia called ``Parents Make the Difference'' (PMD). PMD was developed for caregivers of children ages 3 to 7. The program is grounded in behavioral theory and shares core concepts with parenting programs backed by the strongest evidence from high-income countries. The content was designed to be culturally relevant and appropriate for lay providers to deliver. We hypothesized that the program would be feasible with limited resources, reduce harsh discipline, increase positive parenting, and improve caregiver-child interactions. Secondary outcomes related to child cognition, emotional and behavioral well-being, and caregiver-child communication. Another program objective was to promote malaria prevention behaviors, particularly caregivers using bednets for their children, as malaria continues to be a leading cause of child morbidity and mortality \citep{libmics:2011}. 
+
+\section*{Methods}
+
+\subsection*{Setting and Participants}
+
+This study was conducted in Lofa County, Liberia. During the Second Liberian Civil War (1999-2003) that killed between 150,000 and 200,000 people, many residents of this county fled to neighboring Guinea and Sierra Leone. The International Rescue Committee (IRC), an international humanitarian organization, implemented the PMD program approximately 10 years after refugees returned home to rural Lofa County. 
+
+The IRC recruited caregivers from five communities in Lofa. Program staff conducted information sessions at schools and invited families to register. To be eligible, adults had to be a caregiver to a child aged 3 to 7 years entering the first year of formal schooling. If a caregiver had more than one eligible child, staff enumerated all eligible children in the household and randomly selected a ``target'' child.
+
+\subsection*{Intervention}
+
+PMD is a 10-session intervention. IRC staff developed the program by reviewing existing evidence-based programming and soliciting feedback from content experts on the research team; an earlier iteration of the program was influenced in particular by concepts included in the Nurturing Parenting Program \citep{Bavolek:1983}. The local IRC office then held focus groups in all five communities with male and female caregivers, as well as activity-based groups with children, to gather information about common parenting practices and roles, including those related to education and health. To inform components of the intervention on harsh parenting, additional conversations with caregivers and community leaders were held to gather information on specific discipline practices. These data informed both the intervention and assessment tools. 
+
+A pair of lay Liberian facilitators was trained to lead each weekly two-hour session with groups of 20 to 35 caregivers. This group size is larger than that of many other parenting programs but allowed the IRC to serve more people with fewer resources; this is important for scalability in low-resource settings without external funding. This group size also had proven feasible and acceptable in previous piloting of similar interventions by IRC. Sessions were highly interactive with an emphasis on discussion, modeling, and in-session skills practice. The program focused on positive parenting and included briefer components on building cognitive and educational skills and malaria prevention behaviors (see Table \ref{tbl:int}). Facilitators visited the home of each caregiver once during the program to reinforce skills. The IRC provided caregivers with an incentive of approximately \$1.50 USD per session as is customary of programs offered by non-governmental organizations in this setting. Caregivers were permitted to attend the program with a spouse or co-caregiver.
+
+% int
+\input{tables/int.tex}
+  
+\subsection*{Research Design}
+
+This was a pragmatic, parallel-group, individually-randomized superiority trial. Eligible primary caregivers were randomized into a treatment or wait-list control group with a 1:1 allocation to treatment ratio, stratified by community. A participant flow diagram is displayed in Figure \ref{consort}. With power of 0.80, alpha of 0.05, equal allocation of participants to treatment and control conditions, and an assumption of minimal attrition, this study was designed to detect a standardized effect of at least 0.30. 
+
+\subsection*{Procedures}
+
+A team of trained Liberian enumerators conducted a baseline survey of caregivers and target children in September 2013. After the survey, we held a public lottery in each community and randomly assigned eligible caregivers (without replacement) to immediate or delayed treatment. IRC staff delivered the 10-session intervention to caregivers in the immediate treatment group over the course of 13 weeks in early 2013. Approximately one month after the final session, we surveyed caregivers in both groups prior to providing the intervention to the waitlist control group. Enumerators administered all surveys at participants' homes and captured responses with Android smart-phones. During the same home visit, enumerators also asked caregivers and their children to play together for 5 minutes to complete an observational measure of parent-child interactions. Enumerators were blinded to treatment assignment unless the caregiver divulged this information.
+ 
+The research protocol was reviewed and approved by local community advisory boards in Liberia from all communities and the Duke University Institutional Review Board. This study was pre-registered at ClinicalTrials.gov (NCT01829815). 
+
+\subsection*{Measures}
+
+Prior to data collection, the local research team evaluated the study instruments through systematic piloting and cognitive interviewing. To do this, the local research team administered the items to caregivers and children in the community and asked participants to explain their responses to assess understandability and to advise on clearer ways to ask or translate the items. This led to changes in the core content of the questions, as well as to changes in the translations from American to Liberian English. 
+
+\subsubsection*{Primary Outcomes}
+
+\paragraph*{Parenting Behavior}
+
+We asked caregivers to self-report on their use of six harsh discipline practices---such as whipping, slapping, and yelling at the child---in the four weeks prior to the survey on a scale of 0 (``never'') to 4 (``almost every day''). Items were adapted from the Discipline Module of the Multiple Indicator Cluster Survey \citep{unicef:2005}. Responses were averaged to create a composite index. We also asked caregivers to rate their use of four positive behavior management strategies: `time out', teaching rules, praising compliant behavior, and asking the child to stop bad behavior. The `praise' item was rated on a different 0 to 3 scale, so all positive behavior management items were standardized before summing to create a composite that was then standardized. Caregivers also provided an open-ended description of their response the last time the child misbehaved. Enumerators coded responses to match 15 possible behaviors; non-matching responses were coded as ``other''. 
+
+\paragraph*{Caregiver-Child Interactions}
+
+We asked caregivers and children to rate their experience of four behaviors: spending time together, playing together, talking together, and praise. Caregivers rated their tendency to do these behaviors by indicating their position on a 10-step ladder where the tenth step represents maximum engagement. Children were asked whether the caregiver did these things in the 7 days prior to the survey. To reduce difficulty, enumerators first asked about the behavior using simplified wording and phrasing in the form of a ``yes/no'' question. If the child responded ``yes'', the enumerator then asked how much: ``a small amount'' (1), ``a medium amount'' (2), or ``a lot'' (3). ``No'' responses were scored as 0. We created composite scores for caregivers and children by averaging responses to each set of items.
+
+\subsubsection*{Secondary Outcomes}
+
+\paragraph*{Communication}
+
+Audio recordings from the 5-minute caregiver-child play observation were transcribed by Liberians and coded by trained assistants (American) using the Dyadic Parent-Child Interaction Coding System \citep[DPICS-III;][]{Eyberg:2005}. DPICS allows for the classification of parent verbalizations that serve as markers of parent-child relationship quality. Specific categories include: neutral talk, praise, reflection, behavior description, questions, commands, and negative talk. Assistants were trained according to the DPICS clinical coding manual \citep{Chase:2005,Fernandez:2005} and reached 80 percent agreement with the trainer before coding independently; 10 percent of all transcripts were randomly selected to be re-coded by a second rater. 
+
+\paragraph*{Child Cognitive Abilities}
+
+We developed a short battery of cognitive tasks similar to those on standardized developmental and cognitive measures. Domains included receptive language, expressive language, verbal comprehension, verbal fluency, and numeracy. Scores on language domains were standardized and summed to create an overall language ability composite that was then standardized.  
+
+\paragraph*{Child Wellbeing}
+
+The Strengths and Difficulties Questionnaire (SDQ) is a 25-item behavioral screening questionnaire about children 3 to 17 years old \citep{Goodman:1997}. We administered three subscales of the SDQ to caregivers: hyperactivity/inattention, emotional symptoms, and conduct problems.
+
+\paragraph*{Malaria Prevention Behaviors}
+
+We also asked caregivers whether the household owned a mosquito net, whether the target child slept under the net the night before the survey, and other patterns of use. 
+
+\subsection*{Empirical Strategy}
+
+We calculated intention-to-treat (ITT) estimates of the average treatment effect, $\theta_{ITT}$, using the following ordinary least squares (OLS) specification: 
+
+\begin{align*}
+Y_{i} = \alpha + \theta_{ITT}T_{i} + \beta X'_{i} + \varepsilon_{i}
+\end{align*}
+
+where $Y_{i}$ is an outcome of interest for person $i$ measured one month after the treatment group completed the program; $T_{i}$ is an indicator for assignment to treatment (1=treatment; 0=wait-list control); $X_{i}$ is a vector of community strata dummies and baseline covariates. In the main specification, all missing data were imputed with median values.
+
+In addition to looking at the average treatment effects, we also examined treatment heterogeneity via subgroup analyses \citep{Longford:1999} and quantile regression \citep{Koenker:2005}. Subgroup (moderator) analyses allow us to ask whether the treatment was more or less effective for some participants. We estimated treatment heterogeneity by interacting assignment to treatment with each baseline covariate we are testing as a potential moderator. Quantile regression allows us to examine the variation in impact across the distribution of outcomes. We did not pre-register heterogeneity analyses, so these results should be viewed as exploratory; however, our selection of potential moderators was guided by similar work \citep{Gardner:2010}. 
+
+To explore the mechanisms through which the intervention might impact more distal outcomes (e.g., child emotional symptoms), we considered two possible post-baseline mediator (or intervening) variables: caregiver-reported use of harsh discipline and caregiver-child positive interactions. We tested a multiple mediator model that includes both potential mediators simultaneously and compute bootstrapped 95 percent confidence intervals (adjusted bootstrap percentile method) of the total indirect effect and the component indirect effects of each proposed mediator \citep{Preacher:2008}. 
+
+We conducted all analyses in R version 3.0.2 \citep{RProject} except for the quantile regressions which we conduct in Stata MP version 12.0 \citep{stata12}. Our manuscript was compiled directly from the raw data and analysis code using RStudio version 0.98.932 \citep{RStudio} and \LaTeX MacTeX-2013 distribution \citep{Latex}.
+
+\section*{Results}
+
+\subsection*{Participant Characteristics}
+
+Children (\textit{n}=269) and their caregivers (\textit{n}=270) completed a baseline survey. Figure \ref{consort} displays the participant flow diagram. 53 percent of the child sample was female, and the average child was 5.2 years old. The caregiver sample was also almost evenly divided between males and females (57\%), and the average caregiver was 35.5 years old. Table \ref{tbl:part} demonstrates that the random assignment to treatment and wait-list control resulted in pre-treatment balance. 
+
+
+% A CONSORT-style flowchart of a randomized controlled trial
+% using the PGF/TikZ package
+% Author  : Morten Vejs Willert (July 2010)
+% License : Creative Commons attribution license
+
+\begin{figure}
+\begin{center}
+  \caption{Participant flow diagram}
+  \label{consort}
+  % setting the typeface to sans serif and the font size to small
+  % the scope local to the environment
+  \sffamily
+  \footnotesize
+  \begin{tikzpicture}[auto,
+block_center/.style ={rectangle, draw=black, thick, fill=white, text width=16em, text centered, minimum height=4em},
+block_left/.style ={rectangle, draw=black, thick,    fill=white, text width=16em, text ragged, minimum height=4em, inner sep=6pt},
+block_noborder/.style ={rectangle, draw=none, thick,  fill=none, text width=18em, text centered, minimum height=1em},
+block_assign/.style ={rectangle, draw=black, thick, fill=white, text width=18em, text ragged, minimum height=3em, inner sep=6pt},
+block_lost/.style ={rectangle, draw=black, thick,   fill=white, text width=16em, text ragged, minimum height=3em, inner sep=6pt}, line/.style ={draw, thick, -latex', shorten >=0pt}]
+  % outlining the flowchart using the PGF/TikZ matrix function
+    \matrix [column sep=5mm,row sep=3mm] {
+     % enrollment - row 1
+      \node [block_left] (assessment) {Assessed for eligibility (\textit{N}=270)}; 
+      & \node [block_left] (excluded2) {Excluded (\textit{N}=0): \\
+        a) Inclusion criteria not met (\textit{n}=0) \\
+        b) Exclusion criteria(s) met (\textit{n}=0)}; \\
+     % enrollment - row 2
+      \node [block_center] (random) {Randomized (\textit{N}=270)}; 
+      & \\
+     % follow-up - row 3
+      \node [block_noborder] (i) {Intervention group}; 
+      & \node [block_noborder] (wlc) {Wait-list control group}; \\
+     % follow-up - row 4
+      \node [block_assign] (i_T0) {Allocated to intervention (\textit{n}=135): \\
+      \h Received intervention (\textit{n}=135) \\
+      \h Did not receive intervention (\textit{n}=0)}; 
+    & \node [block_assign] (wlc_T0) {Allocated to wait-list (\textit{n}=135): \\
+      \h Stayed on wait-list (\textit{n}=135) \\
+      \h Did not stay on wait-list (\textit{n}=0)}; \\
+     % follow-up - row 5
+      \node [block_assign] (i_T3) {Post-intervention measurement: \\
+      \h Lost to follow-up (\textit{n}=7)}; 
+	  & \node [block_assign] (wlc_T3) {Post-wait-list measurement: \\
+      \h Lost to follow-up (\textit{n}=11)}; \\
+     % analysis - row 6
+      \node [block_assign] (i_ana) {Analyzed (\textit{n}=135)}; 
+      & \node [block_assign] (wlc_ana) {Analyzed (\textit{n}=135)}; \\
+    };% end matrix
+  % connecting nodes with paths
+    \begin{scope}[every path/.style=line]
+      \path (assessment) -- (excluded2);
+      \path (assessment) -- (random);
+      \path (random)     -- (i);
+      \path (random)     -| (wlc);
+      \path (i)          -- (i_T0);
+      \path (i_T0)       -- (i_T3);
+      \path (i_T3)       -- (i_ana);
+      \path (wlc)        -- (wlc_T0);
+      \path (wlc_T0)     -- (wlc_T3);
+      \path (wlc_T3)     -- (wlc_ana);
+    \end{scope}
+  \end{tikzpicture}
+\end{center}
+\end{figure}
+
+
+\begin{table}
+  \centerline{\begin{threeparttable}
+  \caption{Participant baseline characteristics}
+  \label{tbl:part}
+  \centering
+  \begin{tabular}{lrrrrr}
+  \toprule
+  & \multicolumn{1}{c}{Control} & \multicolumn{1}{c}{Treatment} & \\
+  Characteristics & \multicolumn{1}{c}{(\textit{n}=135)} & \multicolumn{1}{c}{(\textit{n}=135)} & p-value \\
+  \midrule
+  \textit{Caregivers} & & & & & \\
+  \expandableinput ../../master/pmd1/output/tables/part.c.tex
+  \midrule
+  \textit{Children} & & & & & \\
+  \expandableinput ../../master/pmd1/output/tables/part.k.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item Note. $\dagger$ An exchange rate of 74.2 Liberian Dollars per \$1USD (September 12, 2012) was used to convert to USD. Self-reported income top-coded at the 99th percentile.
+  \end{tablenotes}
+  \end{threeparttable}}
+\end{table}
+
+\subsection*{Treatment Compliance}
+
+Caregiver attendance was high; at least one caregiver from 98 percent of households attended all 10 sessions. In some cases, a co-caregiver who did not participate in the surveys attended sessions with, or in place of, the caregiver in the study. These patterns of attendance were not tracked, nor were completed home visits.  
+
+\subsection*{Attrition}
+
+The overall attrition rate was 6.7 percent; 18 children and their caregivers did not participate in the endline survey. As shown in Table \ref{tbl:att} in the Online Appendix, there are no statistically significant baseline differences between found and unfound participants.
+
+\subsection*{Treatment Effects}
+
+Program impacts on primary and secondary outcomes are listed in Table \ref{tbl:ate-main} and displayed graphically as standardized effect sizes (Glass's Delta) in Figure \ref{fig:ate-main}. Full results are presented in Tables \ref{tbl:ate-par}-\ref{tbl:ate-mal} in Online \ref{tables}. 
+
+% main
+\input{tables/main.tex}
+
+\begin{figure}
+  \centerline{\scalebox{0.80}{\includegraphics{../../master/pmd1/output/figures/main.pdf}}}
+  \caption{This plot displays standardized results of intention-to-treat (ITT) ordinary least squares (OLS) regressions of each primary and secondary outcome on an indicator of assignment to treatment, stratum fixed effects, and baseline covariates. The point estimates were standardized by dividing the coefficient on assignment by the control group standard deviation (Glass's $\Delta$). Black dots represent point estimates in the hypothesized direction (grey if not in the hypothesized direction). Dotted lines represent 95 percent confidence intervals.}
+  \label{fig:ate-main}
+\end{figure}
+
+\subsubsection*{Primary Outcomes}
+
+\paragraph*{Parenting Behavior}
+
+The program led to a 55.5 percent reduction (-0.49 points on a scale of 0-4) in caregiver-reported use of harsh punishment practices. As shown in Table \ref{tbl:ate-par} (Online Appendix), a greater proportion of caregivers in the treatment group compared to the wait-list control group reported abandoning harsh practices, such as whipping, slapping, beating, and shouting at their children. The standardized treatment effects (Glass's Delta) on harsh parenting practices range from -0.26 to -0.67. We also observe a corresponding significant increase in the reported use of positive behavior management strategies. This small effect appears to be driven by a significant increase in reported use of time out.  
+
+We see the same pattern of results in the open coding of caregivers' descriptions of how they responded to their child's most recent episode of bad behavior (see Table \ref{tbl:ate-ocp} in the Online Appendix). On average, a smaller proportion of caregivers in the treatment group described using harsh practices such as yelling and beating, and a larger proportion reported using time out. 
+
+\paragraph*{Caregiver-Child Interactions}
+
+In addition to decreasing caregivers' use of harsh punishment and increasing the use of positive behavior management strategies, the program also significantly increased reported positive interactions between caregivers and children. The average caregiver in the treatment group reported a 4.4 percent increase in positive interactions (0.34 points on a scale of 1-10), while the average child of a caregiver assigned to the treatment group reported a 17.5 percent increase (0.32 points on a scale of 0-3; standardized effect sizes of 0.22 and 0.38, respectively).
+
+\subsubsection*{Secondary Outcomes}
+
+The average caregiver assigned to the treatment group increased praise and decreased negative talk as a percentage of overall number of caregiver verbalizations during the timed observational play session, but neither effect is statistically significant at conventional levels. Counter to what we hypothesized, we observe a slight decrease in verbalizations among children of caregivers assigned to the treatment group, but this effect is also not statistically significant. We detect a small treatment effect at the 0.10 level on children's receptive vocabulary and numeracy (standardized effect sizes of 0.1 and 0.18, respectively). With the exception of caregiver-reported child conduct problems, child cognitive and emotional wellbeing indicators move in the hypothesized direction; however, these effects are mostly small and non-significant. The program had no measurable impact on the uptake of malaria prevention behaviors.
+
+\subsubsection*{Sensitivity}
+
+Bias could potentially result from unobserved baseline imbalance and systematic attrition, so we tested the sensitivity of impacts on primary outcomes. As shown in Table \ref{tbl:ate-sen} of the Online Appendix, findings are robust to an alternate specification that excludes baseline covariates. We also created an extreme bound on treatment effects that assumes the `worst' case for missing treatment observations and the `best' case for missing control observations (see table notes for more details). The impact on harsh parenting holds under this extreme assumption, but the impacts on caregiver-child positive interactions and positive behavior management shrink and become non-significant. 
+
+\subsubsection*{Treatment Heterogeneity}
+
+We examine treatment heterogeneity in three outcomes---harsh parenting, positive behavior management, and positive interaction---according to four characteristics measured at \textit{baseline}: caregiver gender, child gender, child age, and child conduct problems. Results are presented in Table \ref{tbl:ate-het}. 
+
+% subgroup
+\input{tables/het.tex}
+
+With respect to harsh parenting, female caregivers report significantly greater use of harsh punishments, but benefitted twice as much from the intervention compared to male caregivers. Caregivers of boys also reported significantly greater use of harsh punishment, but child gender was not a significant moderator of treatment impact. Child age, however, was a moderator, with caregivers of younger children benefitting more from the intervention. There is also evidence that caregivers of children with more conduct problems at baseline responded more positively. With respect to positive behavior management and children's reports of positive interactions, there was only possible moderation (p<.10) of caregiver gender on effects on positive behavior management with males showing larger improvements. 
+
+Quantile regression results are displayed in Figure \ref{fig:quant} in the Online Appendix. As shown in Panel B, it appears that the intervention was most effective among caregivers who reported the most frequent use of harsh punishment (-1.31 SD).
+
+\subsubsection*{Mediation Analysis}
+
+The intervention's theory of change suggests that teaching caregivers the importance of positive caregiver-child interaction, the ineffectiveness and potential negative impact of harsh discipline strategies, and the utility of positive behavior management approaches---all in the context of modeling and practice---will lead to measureable change on these intermediate caregiver/relationship outcomes, which in turn will improve child outcomes. As reported above, we observe statistically significant impacts on the intermediate outcomes, but small and generally non-significant results for child outcomes such as conduct problems, language ability, and emotional symptoms. While the program impact was non-significant, we can use mediation analysis to explore the mechanism through which the program may impact child outcomes \citep{ORourke:2014}.
+
+As shown in Figure \ref{fig:med} in the Online Appendix, child emotional problems appear to be partially mediated by reported harsh discipline and positive caregiver-child interactions. The total indirect effect is -0.13 standard deviations and the 95 percent confidence interval excludes zero. Both mediators appear to contribute roughly the same amount to the indirect effect. There is also a significant indirect effect of these two mediators on child language. The total indirect effect is 0.13 standard deviations. We also tested for moderated mediation since we found that caregiver gender is a potential moderator, but we found no evidence for this.
+
+\section*{Discussion}
+
+This randomized trial examined the feasibility and impact of a parenting skills intervention for caregivers of young children in Liberia. Findings add to the scarce but growing literature on the impacts of parenting interventions in low-income countries and post-conflict settings. This study focuses on children ages three to seven, an age range well-represented in parenting literature in high-income countries but less so in other parts of the world. 
+
+Results show that caregivers in PMD reported reduced use of harsh physical and verbal punishment strategies and increased use of positive behavior management at one-month follow-up. The program also improved caregiver-child interactions---according to caregiver and child report---but no significant effects were found on child-level outcomes or malaria prevention behaviors. 
+ 
+The effects of PMD on harsh punishment were the most robust findings, with medium-sized effects on common discipline strategies, including beating, whipping, and shouting. This is comparable to effects of similar programs in the U.S. In their review of parenting interventions in low- and middle-income countries, \citet{Knerr:2013} identified three studies specifically targeting reductions in harsh parenting behaviors. As examples, results were consistent with those of \citet{Oveisi:2010} who documented moderate effects on harsh discipline following a physician-led parenting intervention in Iran and larger than the small long-term effect on harsh discipline among Turkish mothers after an early enrichment program \citet{Kagitcibasi:2001}. Thus, our results suggest that a parenting intervention delivered by lay facilitators in a post-conflict setting can be as effective for reducing harsh discipline as many similar programs in other contexts.
+
+PMD also had significant small effects on the use of positive behavior management strategies reported by caregivers, such as praising positive behavior and using time out. These were smaller than effects of parenting interventions in high-income countries, though studies reporting the largest effects evaluated interventions for children with documented disruptive behavior problems \citep{Thomas:2007}. Thus, the small impact of PMD on positive behavior management could reflect the fact that we studied the impact of a smaller intervention dose on a non-clinical sample. To bolster effects, interventions like PMD may need to include more intense skills modeling and practice, focus on fewer skills, and take into account more of the potential environmental or cultural factors that may point to additional helpful adaptations. 
+
+For positive parent-child interactions, such as playing, talking, and time together, PMD led to modest improvements. This is consistent with the study by \citet{Kagitcibasi:2001} in Turkey documenting small but significant effects of a parenting intervention on mother involvement and parent-child communication. Several studies in low-income countries also have documented benefits of parenting interventions on positive caregiver-infant interactions \citep{Knerr:2013,Aboud2009}.
+
+  Despite having a positive impact on these proximal caregiver-level outcomes, the PMD program did not lead to significant improvements on the secondary outcomes of children's cognitive and communication skills or emotional or behavioral well-being. This is not entirely surprising given the non-clinical sample, as higher levels of distress and emotional dysregulation among oppositional children at baseline predict greater improvements in child outcomes after parent training \citep{Scott:2012}. These studies have led to the ``differential susceptibility hypothesis'', which posits that children with higher levels of irritability and emotional lability are more impacted by changes in parenting \citep{Bakermans-Kranenburg:2008,Scott:2012}. Thus, while the theory underlying parenting interventions is that changes in parenting will positively impact children's development, in non-clinical samples, parenting changes may not have immediate effects; child outcomes may emerge over time---especially the prevention of negative mental health outcomes \citep{Hermanns:2013}. If child-level effects are to emerge over time, the mechanism of change might be through decreased harsh parenting and increased positive caregiver-child interactions. The results of our mediation analysis suggest that both might mediate child emotional problems. More positive interactions may also mediate the development of children's cognitive abilities, such as language. 
+
+Finally, a foundational goal of this study was to determine the feasibility of implementing a parenting skills intervention in a post-conflict, low-resource setting. Attendance and monitoring data supported both the feasibility and acceptability across the communities. This is encouraging because the intervention was implemented in community settings by lay facilitators---a delivery model that is replicable across diverse settings, including those affected by conflict and scarcity of health professionals. 
+
+\subsection*{Limitations}
+
+Limitations are related to measurement challenges, length of follow-up, study design, and implementation. First, the broad age range in child age (3 to 7 years) meant that we could not rely on standardized cognitive measures, and the study was not powered to examine outcomes by age group. This study was also among the first to use an observational measure of parent-child interactions in this context. American research assistants coded the data, and their unfamiliarity with Liberian English vernacular may have contributed to the limited results in this domain. Second, endline measurement 1-month post-intervention may not have allowed sufficient time for potential positive child outcomes to emerge and did not allow for examination of the maintenance of change over time. Third, related to design, it is possible that there was contamination between the groups, which could have attenuated the observed treatment effects. Also, because we used a waitlist control condition, we do not have a time and attention control condition to conclude that effects were due to this specific intervention. Lastly, attendance tracking did not specify whether another family member replaced the enrolled participant at any given session, meaning that attendance rates are at the household level.
+
+\subsection*{Conclusions and Future Directions}
+
+Results support the feasibility of implementing PMD in a low-income post-conflict setting to reduce harsh treatment of children. PMD was implemented in community-based settings with lay facilitators, a model that could be replicated by aid organizations, governments, or community-level mechanisms. 
+
+Future implementations of PMD or similar programs should evaluate modifications that may further increase impact. Live practice with children has emerged as one of the most effective treatment components for children with disruptive behavior disorders (Kaminski et al., 2008) and could also enhance outcomes in non-clinical populations. This could be integrated into PMD home visits. However, as home visits are a relatively expensive component, their contribution to the intervention effects and cost-effectiveness would need to be explored.
+
+Given the null results on malaria prevention and cognitive outcomes, it is clear that more work is needed to determine whether and how to integrate parenting, health, and early education interventions. These are key outcomes for young children, and all are caregiver-driven. The challenge is to develop interventions that have enough depth, while also maintaining a reasonable scope and length.
+
+A priority for future study is to evaluate the long-term effects of prevention-focused parenting interventions to determine whether they influence the future development of emotional, behavioral, or cognitive problems throughout childhood and adolescence. Future studies also should examine impacts of PMD with caregivers of children with clinical levels of behavioral or emotional difficulties. These could compare effects of the intervention for clinical versus non-clinical samples or compare variants of the program for children and caregivers with varying levels of concerns.
+
+%% References
+\bibliographystyle{elsarticle-harv}
+\bibliography{../parenting}
+
+%\end{linenumbers}
+
+\processdelayedfloats
+
+%% Appendix
+\thispagestyle{plain}
+
+\makeatletter
+\efloat@restorefloats
+\makeatother
+\setcounter{figure}{0} % Start again
+\renewcommand\thefigure{\arabic{figure}}
+\setcounter{table}{0} % Start again
+\renewcommand\thefigure{\arabic{table}}
+\appendix
+
+\newpage
+\section{Supplementary Tables and Figures}
+\label{tables}
+
+\newpage
+% attrition
+
+\begin{table}[H]
+  \centerline{\begin{threeparttable}
+  \caption{Comparison of baseline characteristics among found and unfound participants at endline}
+  \label{tbl:att}
+  \centering
+  \begin{tabular}{lrrrrr}
+  \toprule
+  Characteristics & \multicolumn{1}{c}{Found} & \multicolumn{1}{c}{Unfound} & p-value \\
+  \midrule
+  \textit{Caregivers} & & & & & \\
+  \hspace{0.25cm}\textit{N} & \multicolumn{1}{r}{252} & \multicolumn{1}{r}{18} & \\
+  \expandableinput ../../master/pmd1/output/tables/attr.c.tex
+  \midrule
+  \textit{Children} & & & & & \\
+  \hspace{0.25cm}\textit{N} & \multicolumn{1}{r}{251} & \multicolumn{1}{r}{18} & \\
+  \expandableinput ../../master/pmd1/output/tables/attr.k.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item Note. $\dagger$ An exchange rate of 74.2 Liberian Dollars per \$1USD (September 12, 2012) was used to convert to USD. Self-reported income top-coded at the 99th percentile.
+  \end{tablenotes}
+  \end{threeparttable}}
+\end{table}
+
+\clearpage
+% parenting
+\input{tables/ateParenting.tex}
+
+% opencoding
+\input{tables/opencoding.tex}
+
+% pos int
+\input{tables/posint.tex}
+
+% communication
+\input{tables/comm.tex}
+
+% child abilities
+\input{tables/childab.tex}
+
+% malaria
+\input{tables/malaria.tex}
+
+% sensitivity
+\input{tables/sentbl.tex}
+
+\newpage
+\paragraph*{Quantile Regression}
+
+The average caregiver assigned to immediate treatment reported a significant reduction in the use of harsh discipline of -0.61 standard deviations. However, as shown in Panel B of Figure \ref{fig:quant}, the intervention had differential effects at the tails of the distribution. Specifically, it appears that the intervention was most effective among the caregivers who reported the most use of harsh punishment practices (-1.31 SD) and least effective for caregivers at the opposite end of the distribution (-0.19 SD). Child-reported positive interactions (Panel A) and caregiver-reported use of positive behavior management strategies (Panel C) were more consistent throughout the distribution.
+
+\begin{figure}
+  \centerline{\scalebox{0.60}{\includegraphics{../../master/pmd1/output/figures/hdquant.pdf}}}
+  \caption{This figure displays the results of quantile regressions of an outcome on assignment to treatment and a vector of community strata and baseline covariates. Quantiles of the outcome are displayed on the x-axis. The estimated treatment effect is displayed on the y-axis. The solid black line represents the smoothed estimates of the treatment effect at each quantile. This line is surrounded by a 95 percent confidence interval shaded in gray. Also shown in the plot is the average treatment effect from an ordinary least squares regression (dashed line) and its 95 percent confidence interval (dotted lines).}
+  \label{fig:quant}
+\end{figure}
+
+\newpage
+\begin{figure}
+  \centerline{\scalebox{0.80}{\includegraphics{../../master/pmd1/output/figures/med2.pdf}}}
+  \caption{This figure displays the results of a multiple mediation analysis of two potential mediators, harsh discipline and positive caregiver-child interactions, on two different distal outcomes: child emotional problems and child language. Black dots represent point estimates of the mediation effect. Dotted lines represent bootstrapped 95 percent confidence intervals.}
+  \label{fig:med}
+\end{figure}
+
+
+
+\end{document}
+
+%% End

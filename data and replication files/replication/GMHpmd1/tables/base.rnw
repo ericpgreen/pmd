@@ -1,0 +1,23 @@
+\begin{table}
+  \centerline{\begin{threeparttable}
+  \caption{Participant baseline characteristics}
+  \label{tbl:part}
+  \centering
+  \begin{tabular}{lrrrrr}
+  \toprule
+  & \multicolumn{1}{c}{Control} & \multicolumn{1}{c}{Treatment} & \\
+  Characteristics & \multicolumn{1}{c}{(\textit{n}=\Sexpr{n.c.c})} & \multicolumn{1}{c}{(\textit{n}=\Sexpr{n.c.t})} & p-value \\
+  \midrule
+  \textit{Caregivers} & & & & & \\
+  \expandableinput ../../master/pmd1/output/tables/part.c.tex
+  \midrule
+  \textit{Children} & & & & & \\
+  \expandableinput ../../master/pmd1/output/tables/part.k.tex
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item Note. $\dagger$ An exchange rate of \Sexpr{round(xr, 1)} Liberian Dollars per \$1USD (September 12, 2012) was used to convert to USD. Self-reported income top-coded at the 99th percentile.
+  \end{tablenotes}
+  \end{threeparttable}}
+\end{table}
