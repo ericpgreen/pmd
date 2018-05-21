@@ -1,5 +1,5 @@
 ---
-title: "Parents Make the Difference Intervention"
+title: "Intervention"
 output:
   html_document:
     toc: false
@@ -8,7 +8,7 @@ bibliography: parenting.bib
 csl: vancouver.csl
 ---
 
-# Intervention
+# Introduction
 
 Parents Make the Difference (PMD) is a 10-session, group-based parenting skills intervention. In the evaluation trials, groups of 25 caregivers met weekly for about 2 hours. Each group had two facilitators who were trained in PMD but did not have formal education or previous experience delivering this type of program. 
 
