@@ -8,6 +8,8 @@ navbar:
     href: index.html
   - text: Overview
     href: overview.html
+  - text: Intervention
+    href: intervention.html
   - text: Team
     href: team.html
   - text: Papers

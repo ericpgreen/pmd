@@ -5,8 +5,13 @@ output:
     toc_float: false
 ---
 
-This study was led by Dr. Eve Puffer. [Puffer](https://psychandneuro.duke.edu/people/eve-s-puffer) is on the faculty at Duke University with a joint appointment in the Duke Global Health Institute and the Department of Psychology and Neuroscience. Dr. Eric Green and Dr. Rhea Chase are Co-Investigators on the study. [Green](https://globalhealth.duke.edu/people/faculty/green-eric) is on the faculty at Duke University in the Duke Global Health Institute, and [Chase](https://jbcc.harvard.edu/rhea-chase) is the Director of Early Childhood Programs at Judge Baker Children’s Center. Research support is provided by Dr. Amy [Finnegan](https://sites.google.com/site/amyfinnegan/home) (Postdoctoral Research Associate) and INSERT.
+This study was conducted through a collaboration between Duke University and the International Rescue Committee (IRC). The study was led by Dr. Eve Puffer. [Puffer](https://psychandneuro.duke.edu/people/eve-s-puffer) is on the faculty at Duke University with a joint appointment in the Department of Psychology and Neuroscience and Duke Global Health Institute. Dr. Eric Green and Dr. Rhea Chase are Co-Principal Investigators on the study. [Green](https://globalhealth.duke.edu/people/faculty/green-eric) is on the faculty at Duke University in the Duke Global Health Institute, and [Chase](https://jbcc.harvard.edu/rhea-chase) is the Director of Early Childhood Programs at Judge Baker Children's Center. Research support from Duke was provided by Dr. Amy [Finnegan](https://sites.google.com/site/amyfinnegan/home) (Postdoctoral Research Associate at the Duke Global Health Institute).
 
-IRC team INSERT.
+At the IRC, the project was spearheaded by two technical units: (1) the *Research, Evaluation, and Learning* unit who provided consultation on research design and support for study implementation and (2) the *Child and Youth Protection and Development* unit who played a large role in intervention development and implementation. For both trials associated with this project, John Zayzay has served as the main project officer coordinating research and intervention fieldwork from the IRC office in Liberia. 
 
-The following individuals made important contributions to the study: Katey King, Stephanie Banks, INSERT.
+The following individuals from both the IRC and Duke University made important contributions to the study: 
+
+* IRC: Laura Boone, Amanda Sim, Eduardo Garcia-Rolland, Geoffrey Kirenga, Jeannie Annan, Heidi Lehman, Sara Smith, Sandra Maignant, Crystal Stewart, Katherine Rodrigues, Esther Karnley, Joanne Creighton, Anjuli Shivshanker, 
+Paul Amendola, Julia Frazier, Ruth Z.B. Korgba-Siafa, Rufus J. Kuku, and Justine Landegger.
+
+* Duke University: Katey King, Stephanie Banks, Elsa Friis-Healy, Ali Giusto, and Taylor Wall.

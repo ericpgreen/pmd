@@ -1,0 +1,38 @@
+---
+title: "Parents Make the Difference Intervention"
+output:
+  html_document:
+    toc: false
+    toc_float: false
+bibliography: parenting.bib
+csl: vancouver.csl
+---
+
+# Intervention
+
+Parents Make the Difference (PMD) is a 10-session, group-based parenting skills intervention. In the evaluation trials, groups of 25 caregivers met weekly for about 2 hours. Each group had two facilitators who were trained in PMD but did not have formal education or previous experience delivering this type of program. 
+
+## What do caregivers do during the sessions? 
+
+Facilitators provide some teaching and demonstrations of new skills, but participants are active during most of the session through discussing ideas, practicing new skills with each other, and receiving feedback and coaching from facilitators and peers. These strategies are based on strong evidence that active learning increases chances of true, lasting behavior change.
+
+## Which topics are included? 
+
+PMD focuses on building positive parent-child relationships by teaching positive caretaking practices. Caregivers learn about child development and what they can expect from their young children. They also learn specific ways to communicate with their children and ways to replace harsh discipline strategies, like beating, with non-violent but effective discipline methods, like giving attention to good behavior and removing positive attention during bad behavior through "time outs." Sessions also teach caregivers how to create consistent routines in their homes and how to cope with their emotions to reduce violence in the home. Caregivers also learn fun ways to help their children learn early reading and math skills that will help them succeed in school, even if parents themselves have very little education. Lastly, caregivers learn to teach children healthy behaviors specific to risks in their environment. In the first version of PMD, this focused on malaria prevention; in the second version, this focused on handwashing. The topics of each of the 10 sessions are listed in the table below. 
+
+| Session | Topics |
+|:---     |:---    |
+| 1 | Introduction: Becoming a Positive Parent |
+| 2 | Child Development: Appropriate expectations |
+| 3 | Communicating and Connecting with Children |
+| 4 | Discipline with Dignity |
+| 5 |  Protecting Children from Disease: Handwashing that Works |
+| 6 | Preparing Your Child for School I: Fun with Words |
+| 7 |  Preparing Your Child for School II: Fun with Numbers and Drawings |
+| 8 | Nurturing Rules and Routines |
+| 9 | Managing My Feelings & Creating a Calm Home |
+| 10 | Closing Ceremony: Public Commitment to Our Children |
+
+## Home coaching visits
+
+During Home Coaching Visits (evaluated in the second trial of PMD), a facilitator visits a caregiver and their child in their home three times during PMD in between group sessions. The facilitator briefly reviews the new skills taught during the most recent sessions and then watches the parent use the skills with their child. They coach the caregiver while they practice, providing individualized encouragement and corrective feedback.  
