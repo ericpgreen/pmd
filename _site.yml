@@ -9,7 +9,11 @@ navbar:
   - text: Overview
     href: overview.html
   - text: Intervention
-    href: intervention.html
+    menu:
+    - text: Summary
+      href: intervention.html
+    - text: Manual
+      href: "https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20curriculum.pdf"
   - text: Team
     href: team.html
   - text: Papers
