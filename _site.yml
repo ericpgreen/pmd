@@ -12,8 +12,10 @@ navbar:
     menu:
     - text: Summary
       href: intervention.html
-    - text: Manual
+    - text: Manual (pdf)
       href: "https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20curriculum.pdf"
+    - text: Home Coaching Visits (pdf)
+      href: "https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20home%20coaching%20visits.pdf" 
   - text: Team
     href: team.html
   - text: Papers
