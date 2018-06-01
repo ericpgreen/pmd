@@ -30,6 +30,7 @@ navbar:
     href: "https://github.com/ericpgreen/pmd/tree/master/data%20and%20replication%20files"
     icon: fa-external-link
   - text: Presentations
+    href: presentations.html
   right:
   - icon: fa-envelope-o
     href: mailto:eric.green@duke.edu
