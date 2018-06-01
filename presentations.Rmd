@@ -1,0 +1,13 @@
+---
+title: "Presentations"
+output:
+  html_document:
+    toc: false
+    toc_float: false
+bibliography: parenting.bib
+csl: vancouver.csl
+---
+
+## Presentation at the 2018 National Parenting Conference, Monrovia, Liberia
+Puffer, E.S, Green, E.P., Chase, R., Zayzay, J., & Finnegan, A. (2018, June). Parents Make the Difference research results. Paper presented at the National Parenting Conference, Monrovia, Liberia.
+[Slide Deck](https://docs.google.com/presentation/d/e/2PACX-1vTqpGpQR8sGSMObo7d_cTxXwWXTC0spb7vdwhkyD29TAjqRXzz0RUXmm0wuBLovHCQU4EytqYLPnq-o/pub?start=true&loop=false&delayms=3000)

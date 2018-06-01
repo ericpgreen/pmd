@@ -40,9 +40,3 @@ tbl %>%
 # Summary
 
 This randomized trial examined the feasibility and impact of a parenting skills intervention for caregivers of young children in Liberia. Findings add to the scarce but growing literature on the impacts of parenting interventions in low-income countries and post-conflict settings. This study focuses on children ages 3–7, an age range well-represented in parenting literature in high-income countries but less so in other parts of the world. Results show that the PMD reduced caregivers’ use of harsh physical and verbal punishment strategies and increased their use of positive behavior management at 1-month follow-up. The program also improved caregiver-child interactions—according to caregiver and child report—but no significant effects were found on child-level outcomes or malaria prevention behaviors.
-
-# Key Take-Aways
-
-INSERT
-
-# References
