@@ -10,7 +10,7 @@ csl: vancouver.csl
 <br>
 
 ### Presentation at the 2018 National Parenting Conference, Monrovia, Liberia
-Puffer, E.S, Green, E.P., Chase, R., Zayzay, J., & Finnegan, A. (2018, June). *Parents Make the Difference research results*. Paper presented at the National Parenting Conference, Monrovia, Liberia. [slide deck]
+Puffer, E.S, Green, E.P., Chase, R., Zayzay, J., & Finnegan, A. (2018, June). *Parents Make the Difference research results*. Paper presented at the National Parenting Conference, Monrovia, Liberia. **[slide deck, [research brief](https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20Conference%20June%202018%20Research%20Brief.pdf)]**
 
 ### Presentation at the 39th Annual Meeting and Scientific Sessions of the Society of Behavioral Medicine
 

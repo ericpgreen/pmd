@@ -1,5 +1,5 @@
 ---
-title: "Parents make the difference: a randomized-controlled trial of a parenting intervention in Liberia"
+title: "Parents Make the Difference: A randomized-controlled trial of a parenting intervention in Liberia"
 output:
   html_document:
     toc_float: true
