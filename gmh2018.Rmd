@@ -1,5 +1,5 @@
 ---
-title: "Parents make the difference: a randomized-controlled trial of a parenting intervention in Liberia"
+title: "The impact of the 2014 Ebola virus disease outbreak in Liberia on parent preferences for harsh discipline practices: a quasi-experimental, pre-post design"
 output:
   html_document:
     toc_float: true

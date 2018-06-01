@@ -1,5 +1,5 @@
 ---
-title: "Parents make the difference: a randomized-controlled trial of a parenting intervention in Liberia"
+title: "A qualitative study of mechanisms underlying effects of a parenting intervention in rural Liberia"
 output:
   html_document:
     toc_float: true
@@ -20,7 +20,7 @@ csl: vancouver.csl
   tbl <- data.frame(Element=c("Paper Citation", 
                               "Journal Copy", 
                               "Pre-Print"),
-                    Details=c("Giusto, A., Friis, E., Sim, A. L., Chase, R. M., Zayzay, J. O., Green, E., & Puffer, E. (2017). A Qualitative Study of Mechanisms Underlying Effects of a Parenting Intervention in Rural Liberia. The European Journal of Development Research, 29(5), 964-982.",
+                    Details=c("Giusto, A., Friis, E., Sim, A. L., Chase, R. M., Zayzay, J. O., Green, E., & Puffer, E. (2017). A qualitative study of mechanisms underlying effects of a parenting intervention in rural Liberia. The European Journal of Development Research, 29(5), 964-982.",
                               "[The European Journal of Development Research](https://link.springer.com/article/10.1057/s41287-017-0101-8)",
                               "[Research Gate](https://www.researchgate.net/profile/Ali_Giusto/publication/319920721_A_Qualitative_Study_of_Mechanisms_Underlying_Effects_of_a_Parenting_Intervention_in_Rural_Liberia/links/5a123f180f7e9bd1b2c10257/A-Qualitative-Study-of-Mechanisms-Underlying-Effects-of-a-Parenting-Intervention-in-Rural-Liberia.pdf?_sg%5B0%5D=5y1r6K_iLI0_bhFJgbmsS2HzdgfXVstFcDVQu0ivBtnJmXLheeSdyiE7xKKaHbtCJUX_93ysHdAB1pv80U-Qng.DniHxczU_LaSUDjBXVRmWwm4x38p08sF4VuHqc5a4zSjn3K2C9pfu9YmPNK76wQxi2k4SYWeb_8bFPkVDc5A2g&_sg%5B1%5D=RaD6EeFRtD2mSqf5lTrTi5A0A9Ep68q4sgagZffPwRBlNxfIgiDYBvMYBey-4UUEN8os5HM9hDCwhesXwstz5Ygd1jAOcZw8oEyfRKIA3pXz.DniHxczU_LaSUDjBXVRmWwm4x38p08sF4VuHqc5a4zSjn3K2C9pfu9YmPNK76wQxi2k4SYWeb_8bFPkVDc5A2g&_iepl=)"))
 
