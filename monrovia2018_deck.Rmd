@@ -1,0 +1,47 @@
+---
+title: 
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    highlight: tango
+    center: true
+    transition: none
+    reveal_options:
+      progress: true
+      slideNumber: true
+    css: custom.css
+references:
+- type: book
+  id: wickham2017
+  author:
+  - family: Wickham
+    given: Hadley
+  - family: Grolemund
+    given: Garrett
+  issued: 2017
+  title: R for Data Science
+  publisher: O’Reilly
+  URL: http://r4ds.had.co.nz/
+---
+
+```{r setup, include=FALSE}
+  library(knitr)
+  knitr::opts_chunk$set(echo = TRUE)
+  #opts_knit$set(root.dir=normalizePath('../'))
+  library(tidyverse)
+```
+
+## {data-background="monrovia2018_cover.jpg"}
+
+<style type="text/css">
+p { text-align: left; }
+</style>
+
+## Last week
+
+We learned about relational data and how to combine tables using inner and outer joins:
+
+
+
+## References
+

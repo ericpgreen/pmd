@@ -1,0 +1,20 @@
+---
+title: "Introduction to R"
+output:
+  html_document:
+  toc: false
+---
+  
+<br>
+  
+# Objectives
+  
+By the end of this session, you should be able to:
+  
+
+
+<br>
+  
+<iframe width="960" height="700" src="https://github.com/ericpgreen/pmd/monrovia2018_deck.html" style="border: none;"></iframe>
+  
+Or follow along [here](monrovia2018_deck.html). 
