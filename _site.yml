@@ -32,7 +32,9 @@ navbar:
     href: "https://github.com/ericpgreen/pmd/tree/master/data%20and%20replication%20files"
     icon: fa-external-link
   - text: Workshops
-    href: monrovia2018.html
+    menu:
+      - text: Monrovia 2018
+      - href: monrovia2018.html
   right:
   - icon: fa-envelope-o
     href: mailto:eric.green@duke.edu
