@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 output: 
   revealjs::revealjs_presentation:
     theme: white
@@ -37,9 +37,21 @@ references:
 p { text-align: left; }
 </style>
 
-## Last week
+## Objectives
 
-We learned about relational data and how to combine tables using inner and outer joins:
+By the end of this session, you should be able to:
+
+* State the benefits of a reproducible analysis
+* Explain the layout of the RStudio interface
+* Write Rmarkdown syntax and knit an Rmarkdown file
+* Read a R help file
+* Import data from CSV, RDS, Stata, SAS, SPSS, URLs, and APIs
+* Inspect R objects
+* Conduct initial data checks
+* Reproduce this plot...
+
+## Today's Goal
+
 
 
 
