@@ -28,13 +28,13 @@ navbar:
       href: ejdr2017.html
   - text: Presentations
     href: presentations.html
-  - text: Data and Code
-    href: "https://github.com/ericpgreen/pmd/tree/master/data%20and%20replication%20files"
-    icon: fa-external-link
   - text: Workshops
     menu:
       - text: Monrovia 2018
       - href: monrovia2018.html
+  - text: Data and Code
+    href: "https://github.com/ericpgreen/pmd/tree/master/data%20and%20replication%20files"
+    icon: fa-external-link
   right:
   - icon: fa-envelope-o
     href: mailto:eric.green@duke.edu
