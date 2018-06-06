@@ -10,8 +10,15 @@ output:
 # Objectives
   
 By the end of this session, you should be able to:
-  
 
+* State the benefits of a reproducible analysis
+* Explain the layout of the RStudio interface
+* Write Rmarkdown syntax and knit an Rmarkdown file
+* Read a R help file
+* Import data from CSV, RDS, Stata, SAS, SPSS, URLs, and APIs
+* Inspect R objects
+* Conduct initial data checks
+* Reproduce this plot...
 
 <br>
   
