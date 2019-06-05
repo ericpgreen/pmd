@@ -9,6 +9,10 @@ csl: vancouver.csl
 ---
 <br>
 
+### Presentation at the 2019 Society for Prevention Research Conference, San Francisco, CA
+
+Puffer, E.S, Green, E.P., Chase, R., Zayzay, J., & Finnegan, A. (2019, June). *The Impact of a Positive Parenting Intervention on Child Maltreatment and Parent-Child Interactions: Results of a Randomized Controlled Trial in Monrovia, Liberia*. Paper presented at the 27th Annual Meeting of the Society for Prevention Research, San Francisco, CA **[[slide deck](https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20SPR%202019.pdf)]**
+
 ### Presentation at the 2018 National Parenting Conference, Monrovia, Liberia
 Puffer, E.S, Green, E.P., Chase, R., Zayzay, J., & Finnegan, A. (2018, June). *Parents Make the Difference research results*. Paper presented at the National Parenting Conference, Monrovia, Liberia. **[[slide deck](https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20Conference%20June%202018%20Duke.pdf), [research brief](https://github.com/ericpgreen/pmd/raw/master/data%20and%20replication%20files/resources/PMD%20Conference%20June%202018%20Research%20Brief.pdf)]**
 
